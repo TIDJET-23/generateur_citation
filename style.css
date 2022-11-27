@@ -1,0 +1,121 @@
+/*@author #khireddine_tidjet @22*/
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ 
+}
+.wrapper{
+  width: 400px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 30px 30px 25px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.5);
+}
+
+
+/*@author #khireddine_tidjet @22*/
+
+header, .content :where(i, p, span){
+  color: #202842;
+}
+.wrapper header{
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .content{
+  margin: 8px 0;
+  height: 30vh;
+}
+
+.content .quote-area{
+  display: flex;
+  justify-content: center;
+}
+
+.quote-area i{
+  font-size: 15px;
+}
+.quote-area i:first-child{
+  margin: 1px 5px 0 0;
+}
+.quote-area i:last-child{
+  display: flex;
+  margin: 0 0 3px 10px;
+  align-items: flex-end;
+}
+.quote-area .quote{
+  font-size: 15px;
+  text-align: center;
+  word-break: break-all;
+}
+.content .author{
+  display: flex;
+  font-size: 13px;
+  margin-top: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+}
+
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+
+.wrapper .buttons{
+  border-top: 1px solid #ccc;
+}
+
+.buttons .features{
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features ul{
+  display: flex;
+  margin-left: -45px;
+}
+.features ul li{
+  margin: 0 5px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+  list-style: none;
+  border-radius: 20%;
+  align-items: center;
+  justify-content: center;
+  background-color:#000;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+
+
+
+
+.buttons button{
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 13px;
+  background: #000;
+}
+
+
+.buttons button.loading{
+  opacity: 0.7;
+  pointer-events: none;
+}
