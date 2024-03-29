@@ -11,7 +11,7 @@ do
   git commit -m "first commit"
 
   # Pusher les modifications sur le dépôt distant
-  git push origin main
+  git push origin master
 done
 
 # Boucle pour supprimer le fichier et committer la suppression 20 fois
@@ -25,6 +25,6 @@ do
   git commit -m "first commit"
 
   # Pusher les modifications sur le dépôt distant
-  git push origin main
+  git push origin master
 done
 
